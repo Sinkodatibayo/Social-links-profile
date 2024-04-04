@@ -117,7 +117,7 @@ img {
     text-decoration: none;
     
 }
-a:hover {
+.attribution a:hover {
     color:  hsl(75, 94%, 57%);
 }
 

@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [social-links-profile](https://your-solution-url.com)
+- Live Site URL: [social-links-profile](https://social-links-profile-pi-woad.vercel.app)
 
 ## My process
 
@@ -65,8 +65,8 @@ I learned how to import font .ttf in Css.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [social-links-profile](https://social-links-profile-pi-woad.vercel.app)
+- Frontend Mentor - [Sinkodatibayo](https://www.frontendmentor.io/profile/Sinkodatibayo)
 - Twitter - [@Said_Outalb](https://twitter.com/Said_Outalb)
 
 

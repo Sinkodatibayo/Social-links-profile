@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: inter;
+    src: url(assets/fonts/static/Inter-Bold.ttf) format (100);
+    src: url(assets/fonts/static/Inter-Regular.ttf);
+    src: url(assets/fonts/static/Inter-SemiBold.ttf);
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+
+
+ } 
+body {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: hsl(0, 0%, 8%);
+    font-family: inter;
+    margin: 0;
+    padding: 0;
+    color: hsl(0, 0%, 100%);
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 12%);
+    height: 630px;
+    width: 392px;
+    align-items: center;
+    margin-top: 160px;
+    border-radius: 16px;
+    margin-bottom: 10px;
+}
+
+/* profile picture box */
+
+.profile_pic {
+    height: 100px;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    
+
+}
+
+/* image  */
+
+img {
+    border-radius: 88px ;
+    border: none;
+    width: 100px;
+}
+
+.profile_name {
+    font-size: 28px;
+    margin-bottom: 4px;
+    font-weight: 500;
+}
+
+.location {
+    color: hsl(75, 94%, 57%);
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 28px
+}
+
+.job {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom:24px;
+}
+
+.social_media {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%,24%);
+    width: 300px;
+    height: 48px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700px;
+    margin-bottom: 12px;
+}
+
+.boxes:hover {
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+    color: black;
+
+}
+
+/* footer decoration  */
+
+.attribution {
+    margin-top: 10px;
+    text-decoration: none;
+    
+}
+
+.attribution, a {
+    text-decoration: none;
+    
+}
+a:hover {
+    color:  hsl(75, 94%, 57%);
+}
+
+
+/* icons */
+
+.github-icon {
+    width: 24px;
+    padding-right: 8px;
+   
+}
+
+.frondend-icon{
+    width: 24px;
+    padding-right: 8px;
+
+}
+
+.linkedin-icon{
+    width: 24px;
+    padding-right: 8px;
+
+}
+
+.twitter-icon{
+    width: 24px;
+    padding-right: 8px;
+
+}
+
+.instagram-icon {
+    width: 24px;
+    padding-right: 8px;
+}
+
+@media only screen and (max-width: 375px) {
+    .container {
+        margin-top: 120px;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+  }
